@@ -1,0 +1,119 @@
+/*LIMPANDO FORMATAÇÃO PADRÃO*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+Body {
+	background: #e6e6e6;
+	font-family: 'Trebuchet MS',Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+/*ESTILO MENU*/	
+
+#estilo-fundo-menu {
+	background: #f7b600;
+	text-align: center;
+	padding: 15px;
+}
+
+#estilo-logo {
+	font-size: 2.6em;
+	padding: 10px;
+}
+
+#blog {
+	color: white;
+}
+
+#estilo-menu {
+	font-weight: bold;
+	padding: 10px;
+
+}
+
+#estilo-menu a {
+	text-decoration: none;
+	padding: 10px;
+	color: #FFF;
+	
+}
+
+#estilo-menu a:link, #estilo-menu a;visited {
+	color: #FFF;
+}
+
+#estilo-menu a:hover {
+	color: #f7b600;
+	background: #FFF;
+}
+/* Estilo conteudo*/
+
+#principal {
+	width: 920px;
+	margin: 0px auto;
+	padding: 20px;
+
+}
+
+.noticia {
+	background: white;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+#conteudo {
+	width: 660px;
+	float: left;
+
+}
+
+#conteudo-lateral {
+	float: right;	
+	width: 240px;
+
+
+}
+
+.postagem-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.conteudo-postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+
+}
+
+h2 {
+	color: #f7b600;
+	
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+.data {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+
+}
+a {
+	text-decoration: none;
+	color: #f7b600;
+}
